@@ -1,0 +1,18 @@
+{
+
+  "name": "Funniee",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "author": "vishal",
+  "description": "It's a Prank extension, Add on friends system and have fun!",
+  "content_scripts": [{
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": ["content.js"],
+    "css": ["content.css"]
+  }],
+  "browser_action": {
+    "default_icon": "img/minion.png"
+  }
+}
